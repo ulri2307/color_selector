@@ -1,0 +1,22 @@
+/* ------ Generelt -------*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ---- headline ----- */
+
+/* ------ Colorbox + colorwheel ----*/
+
+#colorSelector {
+  margin: 20px;
+}
+
+.colorbox {
+  border: 1px black solid;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  background-color: black;
+}

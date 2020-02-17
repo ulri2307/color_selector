@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Color selector</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="headline">
+      <h1>Color selector:</h1>
+      <h4>What's your favorite color?</h4>
+    </div>
+
+    <form id="colorSelector">
+      <p>Select color:<input type="color" value="" class="inputHEX"/></p>
+      <div class="colorbox"></div>
+      <p>HEX: <p id="hex"></p></p>
+      <br>
+      <p>RGB: <p id="r"></p> <p id="g"></p>  <p id="b"></p> </p>
+      <br>
+      <p>HSL: <p id="h"></p>  <p id="s"></p>  <p id="l"></p></p>
+    </form>
+
     <script src="script.js"></script>
   </body>
 </html>
