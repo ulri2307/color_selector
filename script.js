@@ -83,7 +83,9 @@ function convertToHSL(r, g, b) {
 function displayColor() {
   let value = this.value;
   //Sets the color of the box
-  document.querySelector(".colorbox").style.backgroundColor = value;
+  document
+    .querySelector(".colorbox")
+    .style.setProperty("background-color", value);
 }
 
 function displayTextHEX() {
